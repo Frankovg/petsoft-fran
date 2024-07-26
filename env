@@ -1,0 +1,20 @@
+# for sqlite
+# DATABASE_URL="file:./dev.db"
+
+AUTH_SECRET='LCuf8kQdHnZa/w4FgvdiswUo3JFSQtDcDyzWAx66jb0='
+
+NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY="pk_test_51Pd4lnC530IlG6AwQUbfgJVD0wt18AWMZx6w6NYQY7pkehqLcSXYkymnOvWn3LcMuijn13DUiDwpvzfONNpBSQlG00BAYLB7gq"
+STRIPE_SECRET_KEY="sk_test_51Pd4lnC530IlG6AwbmY3e15XCi7Y101AxhV8mLCenMVX8fKLxOx1Sy9YrnlDb6JOPSjlKbaz5EAXD9VXu3TYlz1A00OgBYvrCc"
+SERVICE_PRICE_ID='price_1Pd4pQC530IlG6AwnGNtLuZR'
+STRIPE_WEBHOOK_SECRET="whsec_Y2qZ0i6m19meDXeksEGI404J23UJpHSm"
+
+CANONICAL_URL='http://localhost:3000'
+
+POSTGRES_URL="postgres://default:qZlUhQn8f2VP@ep-proud-thunder-a286x96t-pooler.eu-central-1.aws.neon.tech:5432/verceldb?sslmode=require"
+POSTGRES_PRISMA_URL="postgres://default:qZlUhQn8f2VP@ep-proud-thunder-a286x96t-pooler.eu-central-1.aws.neon.tech:5432/verceldb?sslmode=require&pgbouncer=true&connect_timeout=15"
+POSTGRES_URL_NO_SSL="postgres://default:qZlUhQn8f2VP@ep-proud-thunder-a286x96t-pooler.eu-central-1.aws.neon.tech:5432/verceldb"
+POSTGRES_URL_NON_POOLING="postgres://default:qZlUhQn8f2VP@ep-proud-thunder-a286x96t.eu-central-1.aws.neon.tech:5432/verceldb?sslmode=require"
+POSTGRES_USER="default"
+POSTGRES_HOST="ep-proud-thunder-a286x96t-pooler.eu-central-1.aws.neon.tech"
+POSTGRES_PASSWORD="qZlUhQn8f2VP"
+POSTGRES_DATABASE="verceldb"
